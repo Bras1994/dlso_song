@@ -1,0 +1,165 @@
+body{
+    background-color: aliceblue;
+    padding-top: 100px;
+}
+
+section{
+    background-color: #212529;
+    margin: 3em;
+}
+
+header{
+    margin-top: -100px;
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+}
+
+.icon-head{
+    height: 5em;
+    margin: auto 2em;
+}
+
+.header{
+    display: flex;
+}
+
+
+
+.menu{
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    justify-content: flex-end;
+}
+
+
+li{
+    list-style: none;
+    margin: 0.5em;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-family: 'Dongle', sans-serif;
+}
+
+a::before{
+    color: black;
+}
+
+
+.data{
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-portada{   
+    height: 20em;
+    margin: auto 5em;
+}
+
+.date{
+    font-family: 'Lato', sans-serif;
+    color: blanchedalmond;
+    
+}
+
+.p-descrition{
+    border: solid 2px white;
+    width: 25%;
+    margin: auto 5em;
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    color: aliceblue;
+    margin-left: 2em;
+}
+
+pre{
+    color: aliceblue;
+    font-size: 15px !important;
+    line-height: 25px;
+}
+
+
+strong{
+    font-style: italic;
+}
+
+.reproducir{
+    padding-top: 15px;
+    margin: 2em 3em;
+    background-color: #212529;
+}
+
+audio{
+    margin: 0.5em 5em 2em;
+    background-color: #212529;
+    border-radius: 0%;
+}
+
+.letra{
+    padding-top: 15px;
+    margin: 2em 3em;
+    background-color:#212529;
+}
+.p-letra{
+    background-color:aliceblue;
+}
+.return{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 0.25em;
+    text-decoration: none;
+    color:black;
+}
+.data .return{
+    margin: -11px 10px;
+}
+.reproducir .return{
+    margin: -30px 10px;
+}
+
+.letra .return{
+    margin: -55px 10px;
+}
+
+.audio{
+    background-color: #212529;
+    ;
+}
+
+footer{
+    background-color: #212529;
+}
+
+.h-footer{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 2em 0 0 0;
+}
+
+.icon-summer{
+    height: 30px;
+    margin: -15px 0 -10px 10px;
+}
+
+.p-footer{
+    text-align: center;
+    color: blanchedalmond;
+    padding-bottom: 1.5em;
+}
